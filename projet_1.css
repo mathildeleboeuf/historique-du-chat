@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.chats{
+    color: khaki;
+    text-align: center;
+    font-family: fantasy;
+    border-bottom: 5px solid lightpink;
+}
+
+body{
+    background-image:  linear-gradient(
+        rgba(208, 192, 192, 0.6), 
+        rgba(214, 214, 214, 0.6)
+      ),
+    url(https://i.f1g.fr/media/cms/3000x2001_crop/2021/10/21/0977e1ff463de84169617cccfdcc54f1da8fdae0edb7bb8e7d51a575d9343f65.jpg);
+    background-size: 100%;
+    
+}
+
+.races{
+    color: papayawhip;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: Snell Roundhand, cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+
+ .histoire{ 
+    font-family: URW Chancery L, cursive;
+    font-size: large;
+    font-style: oblique;
+}    
+     
+.active {
+    background-color: papayawhip;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #f1f1f1;
+    height: 200px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    height: 100%;
+    width: 30%;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+   
