@@ -76,3 +76,8 @@ li a:hover {
 .histoire {
     height: 300px;
 }
+
+i {
+    color: yellow;
+    margin-right: 10px;
+}
