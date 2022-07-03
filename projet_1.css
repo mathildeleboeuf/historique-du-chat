@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .chats{
     color: khaki;
@@ -9,14 +10,14 @@
     border-bottom: 5px solid lightpink;
 }
 
-body{
+.background-image {
     background-image:  linear-gradient(
         rgba(208, 192, 192, 0.6), 
         rgba(214, 214, 214, 0.6)
       ),
     url(https://i.f1g.fr/media/cms/3000x2001_crop/2021/10/21/0977e1ff463de84169617cccfdcc54f1da8fdae0edb7bb8e7d51a575d9343f65.jpg);
-    background-size: 100%;
-    
+    background-size: 90% 100%;
+    padding-bottom: 200px;
 }
 
 .races{
@@ -26,12 +27,15 @@ body{
     font-family: Snell Roundhand, cursive;
     text-align: center;
     text-decoration: underline;
+    margin-bottom: 60px;
+    padding-top: 60px;
 }
 
- .histoire{ 
+ p{ 
     font-family: URW Chancery L, cursive;
     font-size: large;
     font-style: oblique;
+
 }    
      
 .active {
@@ -42,16 +46,16 @@ body{
 ul {
     list-style-type: none;
     background-color: #f1f1f1;
-    height: 200px;
+    width: 30%;
 }
 
 li a {
     display: block;
     color: #000;
-    padding: 8px 0 8px 16px;
     text-decoration: none;
+    padding: 8px 0px 8px 12px;;
     height: 100%;
-    width: 30%;
+    width: 100%;
 }
 
 li a:hover {
@@ -60,4 +64,15 @@ li a:hover {
 }
 
 
-   
+.box-left, .box-right {
+    width: 30%;
+    display: inline-block;
+    height: 400px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 9.90% ;
+}
+
+.histoire {
+    height: 300px;
+}
